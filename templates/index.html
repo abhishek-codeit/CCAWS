@@ -7,7 +7,7 @@
 <style>
     body {
         /* apply a background gradinent for whole body */
-        background: linear-gradient(to right, #ff9966 0%, #ff5e62 100%);
+        background: #fff;
         /* background-color: red; */
         height: auto;
         width: auto;
@@ -32,7 +32,7 @@
     }
 
     .search {
-        background-color: rgb(182, 182, 182);
+        background-color: rgba(188, 186, 186, 0.545);
         width: 256px;
         height: 40px;
         border-radius: 5px;
@@ -44,7 +44,7 @@
     }
 
     .sbutton {
-        background: #ff5e62;
+        background: #000;
         /* rounded corner */
         border-radius: 5px;
         /* set the width of the button */
@@ -62,7 +62,7 @@
 
 <body>
     <div class="main">
-        <h1>Handling Wild Queries using Permuterm Index</h1>
+        <h1>Input text to summarize</h1>
         <form action="/search" method="post">
             <input type="text" name="query" class="search" placeholder="Search for a query">
             <input type="submit" class="sbutton" value="Search">

@@ -25,7 +25,7 @@ def search():
     # write a code to send the string result to html file and also write how to display it in html file 
     # output is a string not tables
 
-    return render_template('output.html', string_value=answer)
+    return render_template('output.html', string_value=answer,query_value=query)
 
     
     
@@ -33,7 +33,7 @@ def search():
     # return 'Code executed'
     
 if __name__ == '__main__':
-    app.run(host = '0.0.0.0')
+    app.run(host = '0.0.0.0',port=80;)
 
 
 
